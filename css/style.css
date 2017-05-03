@@ -107,8 +107,8 @@ nav div div ul li a:hover {
 
 #second-page{
 
-  /*background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url(../img/about.jpg);*/
-  background-repeat: no-repeat;
+/*  background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url(../img/about.jpg);
+*/  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   -webkit-background-size: cover;
@@ -392,7 +392,7 @@ article h4{
   }
 .panel-default > .panel-heading {
     background-color:transparent;
-    color: #3C7AAD;
+    color: #F7EA29;
     border:1px solid #040404;
     transition-property: letter-spacing;
     transition-duration: 1s;
@@ -493,3 +493,32 @@ padding: 40px;
   transform: rotateY(180deg);
 }
 /*image transition end*/
+
+  .animate-bg {
+  -webkit-animation: bgcolorchange 4s infinite; /* Chrome, Safari, Opera */ 
+  animation: 4s infinite bgcolorchange;
+}
+@keyframes bgcolorchange {
+  0% {
+    background-color: #E24e42;
+  }
+  25% {
+    background-color: #dcb239;
+  }
+  50% {
+    background-color: #eb6e80;
+  }
+  75% {
+    background-color: #94618e;
+  }
+  100% {
+    background-color: #bfd8d2;
+  }
+}
+/* Chrome, Safari, Opera */
+ @-webkit-keyframes bgcolorchange {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      75%  {background: green;}
+      100% {background: blue;}
+ }
