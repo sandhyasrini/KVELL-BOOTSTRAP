@@ -150,7 +150,7 @@ nav div div ul li a:hover {
 
 .jumbotron{
 padding-top: 50px;
-margin-top: 200px;
+margin-top: 100px;
 margin-bottom:200px;
 background: transparent;
 font-family: 'Varela Round'; 
@@ -180,11 +180,49 @@ font-family: 'Varela Round';
     margin-bottom: 20px;
 }
 
-.col-lg-4 div h2{
+.col-lg-12 div h3{
     font-family: 'Varela Round'; 
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #EDBC43;
 }
+
+.col-lg-6 div{
+    font-family: 'Varela Round'; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #EDBC43;
+    font-size: 30px;
+    text-align: center;
+}
+.inner{
+        width: 60%;
+    height: 1px;
+    margin: 0px auto;
+    border-bottom: 4px solid #969696;
+}
+.col-lg-12 div div{
+    width: 10%;
+    height: 1px;
+    margin: 0px auto;
+    border-bottom: 2px solid #969696;
+}
+.col-lg-12 p{
+    font-family: 'Varela Round'; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.col-lg-6 p{
+    font-family: 'Varela Round'; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
 .col-lg-4 p{
     font-family: 'Varela Round'; 
     margin-top: 20px;
@@ -197,14 +235,23 @@ font-family: 'Varela Round';
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 25px;
-    font-size: 20px;
+    font-size: 30px;
 }
+
+/*carousel*/
 .carousel-margin{
 margin-top: 30px;
 margin-bottom: 30px;
 padding-top: 20px;
 padding-bottom: 20px;
 }
+
+.caousel-color{
+    color: black;
+    font-size: 25px;
+    font-family: 'Josefin Sans';
+}
+/*carousel end*/
 .bold-class{
     font-size: 50px;
     color: #EDBC43;
@@ -222,7 +269,7 @@ padding-bottom: 20px;
     display: inline;
 }
 
-.col-lg-12 h1:before { 
+.col-lg-12 h2:before { 
   color: #EDBC43;
   content: open-quote;
   font-size: 4em;
@@ -230,7 +277,7 @@ padding-bottom: 20px;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 } 
-.col-lg-12 h1:after { 
+.col-lg-12 h2:after { 
   color: #EDBC43;
   content: close-quote;
   font-size: 4em;
@@ -409,6 +456,10 @@ article h4{
     width:100%;
 }
 
+.width-percents{
+    width: 70%;
+}
+
 .height-percent{
     height:100%;
 }
@@ -430,6 +481,11 @@ padding: 40px;
     background-color: #71796F;
 }
 
+.col-lg-4 img:hover{
+    height: 280px;
+    width: 105%
+}
+
 
 /*media query*/
 @media (max-width: 744px){
@@ -446,6 +502,8 @@ padding: 40px;
 }
  }
  /*media-query end*/
+
+
  /*tab style*/
      .navbar-inverse .navbar-nav>li>a {
      color: white;
