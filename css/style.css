@@ -429,6 +429,9 @@ padding: 40px;
 .navbar-toggle{
     background-color: #71796F;
 }
+
+
+/*media query*/
 @media (max-width: 744px){
 .navbar-inverse .navbar-nav>li>a {
      background-color: #9d9d9d;
@@ -442,6 +445,8 @@ padding: 40px;
     background-color: #9d9d9d;
 }
  }
+ /*media-query end*/
+ /*tab style*/
      .navbar-inverse .navbar-nav>li>a {
      color: white;
      }
@@ -494,6 +499,10 @@ padding: 40px;
 }
 /*image transition end*/
 
+
+
+/*background-color*/
+
   .animate-bg {
   -webkit-animation: bgcolorchange 4s infinite; /* Chrome, Safari, Opera */ 
   animation: 4s infinite bgcolorchange;
@@ -522,3 +531,4 @@ padding: 40px;
       75%  {background: green;}
       100% {background: blue;}
  }
+ /*background-color end*/
