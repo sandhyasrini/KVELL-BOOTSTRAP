@@ -1,511 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>KVELL</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
-    <meta name="description" content="Bootstrap example exercise">
-    <meta name="author" content="Sandhya Srinivasan">
-    <link rel="icon" href="img/title.png" type="image/png">
-    <link rel="stylesheet" href="lib/animations.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Varela+Round">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <link rel="stylesheet" type="text/css" href="lib/bootstrap.js">
-   <link rel="stylesheet" type="text/css" href="lib/bootstrap.min.js">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-
-  <nav  class="navbar navbar-inverse navbar-fixed-top nav-color opaque-navbar">
-  <div>
-       <button type="button" class="navbar-toggle collapsed" data-target=".navbarCollapse" data-toggle="collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <div class="navbar-brand image-align page-scroll">
-         <a href="#second-page" class="page-scroll img-responsive"> <img src="img/trans.png" alt="Icon" width="100" height="55"></a>
-        </div>
-        </div>
-        <div class="navbar-collapse collapse page-scroll navbarCollapse">
-        <ul class="nav navbar-nav padding-class">
-          <li><a href="index.html" class="page-scroll">Home</a></li>
-          <li><a href="#footer-id" class="page-scroll">Contact</a></li>
-          
-       </ul>
-     
-        <!-- <div class=" image-align page-scroll">
-         <a href="#home" class="page-scroll"> <img src="img/trans.png" alt="Icon" width="100" height="55"></a>
-        </div> -->
-       
-        <ul class="nav navbar-nav pull-right navbarCollapse" >
-
-          <li><a href="#" data-toggle="modal" data-target="#myModal" id="scroll" class="page-scroll"><span class="glyphicon glyphicon-log-in icon-padding"></span>Sign-in</a></li>
-          <li>
-          <a href="#" data-toggle="modal" data-target="#mySignin" id="scroll1" class="page-scroll"><span class="glyphicon glyphicon-user icon-padding"></span>Sign-Up</a></li>
- 
+   <head>
+      <title>KVELL</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1" >
+      <meta name="description" content="Bootstrap example exercise">
+      <meta name="author" content="Sandhya Srinivasan">
+      <link rel="icon" href="img/title.png" type="image/png">
+      <link rel="stylesheet" href="lib/animations.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Varela+Round">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="lib/bootstrap.js">
+      <link rel="stylesheet" type="text/css" href="lib/bootstrap.min.js">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <nav  class="navbar navbar-inverse navbar-fixed-top nav-color opaque-navbar">
+         <div>
+            <button type="button" class="navbar-toggle collapsed" data-target=".navbarCollapse" data-toggle="collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+            </button>
+            <div class="navbar-brand image-align page-scroll">
+               <a href="#second-page" class="page-scroll img-responsive"> <img src="img/trans.png" alt="Icon" width="100" height="55"></a>
+            </div>
+         </div>
+         <div class="navbar-collapse collapse page-scroll navbarCollapse">
+            <ul class="nav navbar-nav padding-class">
+               <li><a href="index.html" class="page-scroll">Home</a></li>
+               <li><a href="#footer-id" class="page-scroll">Contact</a></li>
             </ul>
-         
-       </div>
-            </nav>
-            </div>
-
-
-     <!--header content-->       
-    <header id="second-page" class= "animatedParent animate-bg">
-    <div class="container animated bounceInUp padded go">
-      <div class="jumbotron panel-bg">
-      <!--Collapse panel-->
-        <div class="panel-group panel-bg" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default panel-bg">
-    <div class="panel-heading panel-bg" role="tab" id="headingOne">
-      <h4 class="panel-tijumbotrontle panel-bg">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          KAPTAIN
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in panel-bg" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body panel-bg">
-       <div class="row">
-
-        <div class="col-lg-6 card-container">
-           <div class="card">
-             <div class="side"><img src="img/Kaptain.jpg" alt="pop" class="width-percent" height="400"></div>
-             <div class="side back"><img src="img/kaptain2.jpg" alt="pop" class="width-percent" height="400"></div>
-           </div>
-        </div>
-        <div class="col-lg-6">
-        <article class="row para-style innovation-text horizontal"  >
-        <h4>
-        A fresh, modern take on the traditional captain chair, Kaptain is a versatile piece suited to both living and dining spaces. Durable and easy to maintain, Kaptain will see you through the years.
-        </h4>
-        </article>
-
-        <article class="row para-style innovation-text horizontal">
-        <h4>size -  22"x22''x29"</h4>
-        
-        </article>
-      
-        <article class="row para-style innovation-text" >
-        <h4>colors-Pure White, Honest Blue, Modest Grey, Mysterious Black, Cheerful Yellow, Natural Tan</h4>
-        </article>
-      </div>
-  
-    </div>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default panel-bg ">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title panel-bg">
-        <a class="collapsed panel-bg" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          POP
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse panel-bg" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body panel-bg">
-        <div class="row">
-        <div class="col-lg-6">
-        <article class="row para-style innovation-text horizontal"  >
-        <h4>
-       Clean lines and timeless design, Pop is a staple timepiece for any home. Pop comes in a range of unique colors to add some oomph to your walls.
-        </h4>
-        </article>
-
-        <article class="row para-style innovation-text horizontal">
-        <h4>size -  10’’x0.2"x10’’</h4>
-        
-        </article>
-      
-        <article class="row para-style innovation-text" >
-        <h4>colors-Honest Blue, Bashful Pink, Impulsive Red, Cheerful Yellow, Energetic Blue</h4>
-        </article>
-      </div>
-      <div class="col-lg-6 card-container">
-      <div class="card">
-        <div class="side"><img src="img/pop.jpg" alt="pop" class="width-percent" height="400"></div>
-        <div class="side back"><img src="img/popnew.jpg" alt="pop" class="width-percent" height="400"></div>
-      </div>
-        </div>
-  
-    </div>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default panel-bg">
-    <div class="panel-heading panel-bg" role="tab" id="headingThree">
-      <h4 class="panel-title panel-bg">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          BOTO
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse panel-bg" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body panel-bg">
-               <div class="row">
-
-<div class="col-lg-6 card-container">
-            <div class="card">
-              <div class="side"><img src="img/boto.jpg" alt="pop" class="width-percent" height="400"></div>
-              <div class="side back"><img src="img/boto2.jpg" alt="pop" class="width-percent" height="400"></div>
-            </div>
-        </div>
-        <div class="col-lg-6">
-        <article class="row para-style innovation-text horizontal"  >
-        <h4>
-        Refined and stately, Boto is a classic ottoman that comes in two unique sizes boasting ample storage space within. Assembles in seconds, Boto comes in a luxurious, heavy velvet, available in a range of both rich and neutral colors.
-        </h4>
-        </article>
-
-        <article class="row para-style innovation-text horizontal">
-        <h4>Size - 15"x17''</h4>
-        
-        </article>
-      
-        <article class="row para-style innovation-text" >
-        <h4>Colors - Loyal Blue, Natural Tan, Passionate Plum,Bashful Pink, Impulsive Red</h4>
-        </article>
-      </div>
-  
-    </div>
-      </div>
-    </div>
-  </div>
-
-
-<div class="panel panel-default panel-bg panel-default">
-    <div class="panel-heading " role="tab" id="headingtwoo">
-      <h4 class="panel-title panel-bg">
-        <a class="collapsed panel-bg" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
-          NORDIK
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse panel-bg" role="tabpanel" aria-labelledby="headingtwoo">
-      <div class="panel-body panel-bg">
-        <div class="row">
-        <div class="col-lg-6">
-        <article class="row para-style innovation-text horizontal"  >
-        <h4>
-       Oversized comfort and modern styling, the Nordik ottoman is an extension of our folding family with solid beech legs and generous storage space within. The entire Nordik line utilizes flat pack construction and can be assembled in minutes..
-        </h4>
-        </article>
-
-        <article class="row para-style innovation-text horizontal">
-        <h4>Size - 32"x32"x16’’</h4>
-        
-        </article>
-      
-        <article class="row para-style innovation-text" >
-        <h4>Colors - Modest Grey, Peaceful Creame</h4>
-        </article>
-      </div>
-
-<div class="col-lg-6 card-container">
-            <div class="card">
-              <div class="side"><img src="img/nordik-collapse.jpg" alt="pop" class="width-percent" height="400"></div>
-              <div class="side back"><img src="img/nordik1.jpg" alt="pop" class="width-percent" height="400"></div>
-            </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default panel-bg">
-    <div class="panel-heading panel-bg" role="tab" id="headingFive">
-      <h4 class="panel-title panel-bg">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-          ORBIT
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFive" class="panel-collapse collapse panel-bg" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body panel-bg">
-               <div class="row">
-
-<div class="col-lg-6 card-container">
-            <div class="card">
-              <div class="side"><img src="img/orbit-tab.jpg" alt="pop" class="width-percent" height="400"></div>
-              <div class="side back"><img src="img/orbit2.jpg" alt="pop" class="width-percent" height="400"></div>
-            </div>
-        </div>
-        <div class="col-lg-6">
-        <article class="row para-style innovation-text horizontal"  >
-        <h4>
-        Nostalgic and fun, this mid century throw back is both a clever and functional coat rack for your home. Assembles in minutes with no tools required, the Orbit has 2 height settings (40” or 60”) and moving arms for a custom layout. 
-        </h4>
-        </article>
-
-        <article class="row para-style innovation-text horizontal">
-        <h4>
-Size - 24"x64''</h4>
-        
-        </article>
-      
-        <article class="row para-style innovation-text" >
-        <h4>Colors - Mysterious Black /Multi, Mysterious Black /Natural Wood, Pure White /Natural Wood</h4>
-        </article>
-      </div>
-  
-    </div>
-      </div>
-    </div>
-  </div>
-   <!--collapse panel end-->
-</div>
-      </div>
-  </div>
-    </header>
-    <!--header end-->
-
-
-<div class="container" id="home">
-      <section class="jumbotron animatedParent">
-        <div class="row">
-        <div class="col-lg-6">
-         <div>Let's Create<div class="inner">&nbsp;</div></div>
-         <p class="p-style repeat animated fadeInUp slowest go">A two-word philosophy. A thousand new ideas. 
-Our new brand identity is a celebration of the creative spirit that makes each of us and our homes unique.</p>
-          </div>
-          <div class="col-lg-6">
-          <img src="img/osm.gif" alt="osm" width=100% height=150%>
-          </div>
-        </div>
-      </section>
-      </div>
-
-
-<!--fotter start-->
-
-<footer id="footer-id" class="animatedParent" data-id="1">
-    
-  
-  
-    <div class="container animated bounceInRight slower go">
-  <div id="footer-style" class="row">
-  
-    <div class="col-lg-3 left-align" >
-            <ul>
-            <li><h4>PRODUCT</h4></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Themes</a></li>
-          <li><a href="#">Pricings</a></li>
-          <li><a href="#">Mobile Apps</a></li>
-      </ul>
-
-    </div>
-    <div class="col-lg-3 left-align" >
-      
-      <ul>
-          <li><h4> RESOURCES</h4></li>
-          <li><a href="#"> Blog</a></li>
-          <li><a href="#">Inspiration Center</a></li>
-          <li><a href="#"> Success Stories</a></li>
-          <li><a href="#">Developer Docs</a></li> 
-      </ul> 
-    </div>
-    <div class="col-lg-3 left-align">
-       
-       <ul>
-       <li><h4>SUPPORT</h4></li>
-           <li><a href="#">Support Center</a></li>
-           <li><a href="#">Community</a></li>
-       </ul>
-    </div>
-    <div class="col-lg-3 left-align" >
-       
-       <ul>
-          <li><h4>COMPANY</h4></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Contact</a></li>
-       </ul>
-    </div>
-  </div>
-
-  
-  
-  </div>
-  <div class="sub-footer">
-    <div class="sub-parastyle glyph">Follow US!!
-    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-square"></a>
-    <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter-square"></a>
-    <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
-    <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube-square"></a>
-    <a href="https://www.plus.google.com/" target="_blank" class="fa fa-google-plus-square"></a>
-
-    </div>
-  </div>
-</footer>
-
-<!--footer end-->
-
-
-<!--Modal-->
-  <div class="modal fade" id="myModal">
-              <div class="modal-dialog">
-              
-                <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header modal-head">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Login to your account</h4>
+            <!-- <div class=" image-align page-scroll">
+               <a href="#home" class="page-scroll"> <img src="img/trans.png" alt="Icon" width="100" height="55"></a>
+               </div> -->
+            <ul class="nav navbar-nav pull-right navbarCollapse" >
+               <li><a href="#" data-toggle="modal" data-target="#myModal" id="scroll" class="page-scroll"><span class="glyphicon glyphicon-log-in icon-padding"></span>Sign-in</a></li>
+               <li>
+                  <a href="#" data-toggle="modal" data-target="#mySignin" id="scroll1" class="page-scroll"><span class="glyphicon glyphicon-user icon-padding"></span>Sign-Up</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!--header content-->       
+      <header id="second-page" class= "animatedParent animate-bg">
+         <div class="container animated bounceInUp padded go">
+            <div class="jumbotron panel-bg">
+               <!--Collapse panel-->
+               <div class="panel-group panel-bg" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default panel-bg">
+                     <div class="panel-heading panel-bg" role="tab" id="headingOne">
+                        <h4 class="panel-tijumbotrontle panel-bg">
+                           <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           KAPTAIN
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseOne" class="panel-collapse collapse in panel-bg" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body panel-bg">
+                           <div class="row">
+                              <div class="col-lg-6 card-container">
+                                 <div class="card">
+                                    <div class="side"><img src="img/Kaptain.jpg" alt="pop" class="width-percent" height="400"></div>
+                                    <div class="side back"><img src="img/kaptain2.jpg" alt="pop" class="width-percent" height="400"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <article class="row para-style innovation-text horizontal"  >
+                                    <h4>
+                                       A fresh, modern take on the traditional captain chair, Kaptain is a versatile piece suited to both living and dining spaces. Durable and easy to maintain, Kaptain will see you through the years.
+                                    </h4>
+                                 </article>
+                                 <article class="row para-style innovation-text horizontal">
+                                    <h4>size -  22"x22''x29"</h4>
+                                 </article>
+                                 <article class="row para-style innovation-text" >
+                                    <h4>colors-Pure White, Honest Blue, Modest Grey, Mysterious Black, Cheerful Yellow, Natural Tan</h4>
+                                 </article>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div class="modal-body">
-                    <form class="form-horizontal" >
-                  <div style="margin-bottom: 25px" class="input-group">
-                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                      <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">                                        
+                  <div class="panel panel-default panel-bg ">
+                     <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title panel-bg">
+                           <a class="collapsed panel-bg" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           POP
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseTwo" class="panel-collapse collapse panel-bg" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body panel-bg">
+                           <div class="row">
+                              <div class="col-lg-6">
+                                 <article class="row para-style innovation-text horizontal"  >
+                                    <h4>
+                                       Clean lines and timeless design, Pop is a staple timepiece for any home. Pop comes in a range of unique colors to add some oomph to your walls.
+                                    </h4>
+                                 </article>
+                                 <article class="row para-style innovation-text horizontal">
+                                    <h4>size -  10’’x0.2"x10’’</h4>
+                                 </article>
+                                 <article class="row para-style innovation-text" >
+                                    <h4>colors-Honest Blue, Bashful Pink, Impulsive Red, Cheerful Yellow, Energetic Blue</h4>
+                                 </article>
+                              </div>
+                              <div class="col-lg-6 card-container">
+                                 <div class="card">
+                                    <div class="side"><img src="img/pop.jpg" alt="pop" class="width-percent" height="400"></div>
+                                    <div class="side back"><img src="img/popnew.jpg" alt="pop" class="width-percent" height="400"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div style="margin-bottom: 25px" class="input-group">
-                      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                      <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
-                  </div>                   
-                  <div class="input-group">
-                    <div class="checkbox">
-                      <label>
-                        <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
-                      </label>
-                    </div>
+                  <div class="panel panel-default panel-bg">
+                     <div class="panel-heading panel-bg" role="tab" id="headingThree">
+                        <h4 class="panel-title panel-bg">
+                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           BOTO
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseThree" class="panel-collapse collapse panel-bg" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body panel-bg">
+                           <div class="row">
+                              <div class="col-lg-6 card-container">
+                                 <div class="card">
+                                    <div class="side"><img src="img/boto.jpg" alt="pop" class="width-percent" height="400"></div>
+                                    <div class="side back"><img src="img/boto2.jpg" alt="pop" class="width-percent" height="400"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <article class="row para-style innovation-text horizontal"  >
+                                    <h4>
+                                       Refined and stately, Boto is a classic ottoman that comes in two unique sizes boasting ample storage space within. Assembles in seconds, Boto comes in a luxurious, heavy velvet, available in a range of both rich and neutral colors.
+                                    </h4>
+                                 </article>
+                                 <article class="row para-style innovation-text horizontal">
+                                    <h4>Size - 15"x17''</h4>
+                                 </article>
+                                 <article class="row para-style innovation-text" >
+                                    <h4>Colors - Loyal Blue, Natural Tan, Passionate Plum,Bashful Pink, Impulsive Red</h4>
+                                 </article>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                      
-                    </form>                    
+                  <div class="panel panel-default panel-bg panel-default">
+                     <div class="panel-heading " role="tab" id="headingtwoo">
+                        <h4 class="panel-title panel-bg">
+                           <a class="collapsed panel-bg" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                           NORDIK
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseFour" class="panel-collapse collapse panel-bg" role="tabpanel" aria-labelledby="headingtwoo">
+                        <div class="panel-body panel-bg">
+                           <div class="row">
+                              <div class="col-lg-6">
+                                 <article class="row para-style innovation-text horizontal"  >
+                                    <h4>
+                                       Oversized comfort and modern styling, the Nordik ottoman is an extension of our folding family with solid beech legs and generous storage space within. The entire Nordik line utilizes flat pack construction and can be assembled in minutes..
+                                    </h4>
+                                 </article>
+                                 <article class="row para-style innovation-text horizontal">
+                                    <h4>Size - 32"x32"x16’’</h4>
+                                 </article>
+                                 <article class="row para-style innovation-text" >
+                                    <h4>Colors - Modest Grey, Peaceful Creame</h4>
+                                 </article>
+                              </div>
+                              <div class="col-lg-6 card-container">
+                                 <div class="card">
+                                    <div class="side"><img src="img/nordik-collapse.jpg" alt="pop" class="width-percent" height="400"></div>
+                                    <div class="side back"><img src="img/nordik1.jpg" alt="pop" class="width-percent" height="400"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div class="modal-footer">
+                  <div class="panel panel-default panel-bg">
+                     <div class="panel-heading panel-bg" role="tab" id="headingFive">
+                        <h4 class="panel-title panel-bg">
+                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                           ORBIT
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseFive" class="panel-collapse collapse panel-bg" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body panel-bg">
+                           <div class="row">
+                              <div class="col-lg-6 card-container">
+                                 <div class="card">
+                                    <div class="side"><img src="img/orbit-tab.jpg" alt="pop" class="width-percent" height="400"></div>
+                                    <div class="side back"><img src="img/orbit2.jpg" alt="pop" class="width-percent" height="400"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <article class="row para-style innovation-text horizontal"  >
+                                    <h4>
+                                       Nostalgic and fun, this mid century throw back is both a clever and functional coat rack for your home. Assembles in minutes with no tools required, the Orbit has 2 height settings (40” or 60”) and moving arms for a custom layout. 
+                                    </h4>
+                                 </article>
+                                 <article class="row para-style innovation-text horizontal">
+                                    <h4>
+                                       Size - 24"x64''
+                                    </h4>
+                                 </article>
+                                 <article class="row para-style innovation-text" >
+                                    <h4>Colors - Mysterious Black /Multi, Mysterious Black /Natural Wood, Pure White /Natural Wood</h4>
+                                 </article>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--collapse panel end-->
+               </div>
+            </div>
+         </div>
+      </header>
+      <!--header end-->
+      <div class="container" id="home">
+         <section class="jumbotron animatedParent">
+            <div class="row">
+               <div class="col-lg-6 ">
+                  <div class="create">
+                     <h2>Let's Create</h2>
+                     <div class="inner">&nbsp;</div>
+                  </div>
+                  <p class="p-style repeat animated fadeInUp slowest go">A two-word philosophy. A thousand new ideas. 
+                     Our new brand identity is a celebration of the creative spirit that makes each of us and our homes unique.
+                  </p>
+               </div>
+               <div class="col-lg-6 create">
+                  <img src="img/osm.gif" alt="osm" class="gif-class">
+               </div>
+            </div>
+         </section>
+      </div>
+      <!--fotter start-->
+      <footer id="footer-id" class="animatedParent" data-id="1">
+         <div class="container animated bounceInRight slower go">
+            <div id="footer-style" class="row">
+               <div class="col-lg-3 left-align" >
+                  <ul>
+                     <li>
+                        <h4>PRODUCT</h4>
+                     </li>
+                     <li><a href="#">Features</a></li>
+                     <li><a href="#">Themes</a></li>
+                     <li><a href="#">Pricings</a></li>
+                     <li><a href="#">Mobile Apps</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 left-align" >
+                  <ul>
+                     <li>
+                        <h4> RESOURCES</h4>
+                     </li>
+                     <li><a href="#"> Blog</a></li>
+                     <li><a href="#">Inspiration Center</a></li>
+                     <li><a href="#"> Success Stories</a></li>
+                     <li><a href="#">Developer Docs</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 left-align">
+                  <ul>
+                     <li>
+                        <h4>SUPPORT</h4>
+                     </li>
+                     <li><a href="#">Support Center</a></li>
+                     <li><a href="#">Community</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 left-align" >
+                  <ul>
+                     <li>
+                        <h4>COMPANY</h4>
+                     </li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">Careers</a></li>
+                     <li><a href="#">Press</a></li>
+                     <li><a href="#">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="sub-footer">
+            <div class="sub-parastyle glyph">Follow US!!
+               <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-square"></a>
+               <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter-square"></a>
+               <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+               <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube-square"></a>
+               <a href="https://www.plus.google.com/" target="_blank" class="fa fa-google-plus-square"></a>
+            </div>
+         </div>
+      </footer>
+      <!--footer end-->
+      <!--Modal-->
+      <div class="modal fade" id="myModal">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header modal-head">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Login to your account</h4>
+               </div>
+               <div class="modal-body">
+                  <form class="form-horizontal" >
+                     <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">                                        
+                     </div>
+                     <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                     </div>
+                     <div class="input-group">
+                        <div class="checkbox">
+                           <label>
+                           <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+                           </label>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="modal-footer">
                   <button type="button" class="btn btn-info" data-dismiss="modal">Enter</button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-                
-              </div>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+               </div>
             </div>
-<!--Modal End-->
-
-<!--Modal-->
-  <div class="modal fade" id="mySignin">
-              <div class="modal-dialog">
-              
-                <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header modal-head">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Sign Up!!</h4>
-                  </div>
-                  <div class="modal-body">
+         </div>
+      </div>
+      <!--Modal End-->
+      <!--Modal-->
+      <div class="modal fade" id="mySignin">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header modal-head">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Sign Up!!</h4>
+               </div>
+               <div class="modal-body">
                   <div class="tabbable bg-color">
-                    <ul class="nav nav-tabs bg-color">
-                      <li class="active"><a href="#tab1" data-toggle="tab">Sign up</a></li>
-                      <li><a href="#tab2" data-toggle="tab">Address</a></li>
-                    </ul>
-                        <div class="tab-content bg-color">
-                          <div class="tab-pane active bg-color" id="tab1">
-                          <form class="form-horizontal" >
-                        <div class="form-group">
-                          <label  class="col-sm-2 control-label"
+                     <ul class="nav nav-tabs bg-color">
+                        <li class="active"><a href="#tab1" data-toggle="tab">Sign up</a></li>
+                        <li><a href="#tab2" data-toggle="tab">Address</a></li>
+                     </ul>
+                     <div class="tab-content bg-color">
+                        <div class="tab-pane active bg-color" id="tab1">
+                           <form class="form-horizontal" >
+                              <div class="form-group">
+                                 <label  class="col-sm-2 control-label"
                                     for="inputEmail3">Email</label>
-                          <div class="col-sm-10">
-                              <input type="email" class="form-control" 
-                              id="inputEmail3" placeholder="Email"/>
-                          </div>
+                                 <div class="col-sm-10">
+                                    <input type="email" class="form-control" 
+                                       id="inputEmail3" placeholder="Email"/>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                 <label class="col-sm-2 control-label"
+                                    for="inputUser" >User name</label>
+                                 <div class="col-sm-10">
+                                    <input type="text" class="form-control"
+                                       id="inputUser" placeholder="User Name"/>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                 <label class="col-sm-2 control-label"
+                                    for="inputPassword1" >Password</label>
+                                 <div class="col-sm-10">
+                                    <input type="password" class="form-control"
+                                       id="inputPassword1" placeholder="Password"/>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                 <label class="col-sm-2 control-label"
+                                    for="inputPassword2" >Re-enter Password</label>
+                                 <div class="col-sm-10">
+                                    <input type="password" class="form-control"
+                                       id="inputPassword2" placeholder="Re enter Password"/>
+                                 </div>
+                              </div>
+                           </form>
                         </div>
-                        <div class="form-group">
-                          <label class="col-sm-2 control-label"
-                                for="inputUser" >User name</label>
-                          <div class="col-sm-10">
-                              <input type="text" class="form-control"
-                                  id="inputUser" placeholder="User Name"/>
-                          </div>
-                        </div>                
-                         <div class="form-group">
-                          <label class="col-sm-2 control-label"
-                                for="inputPassword1" >Password</label>
-                          <div class="col-sm-10">
-                              <input type="password" class="form-control"
-                                  id="inputPassword1" placeholder="Password"/>
-                          </div>
+                        <div class="tab-pane bg-color" id="tab2">
+                           <p class="para-center">A few more steps and we are good to go!!</p>
+                           <p>
+                           <form class="form-horizontal" >
+                              <div class="form-group">
+                                 <label  class="col-sm-2 control-label"
+                                    >line 1</label>
+                                 <div class="col-sm-10">
+                                    <input type="email" class="form-control" 
+                                       id="inputline1" placeholder="Address line 1"/>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                 <label class="col-sm-2 control-label"
+                                    for="line2" >line 2</label>
+                                 <div class="col-sm-10">
+                                    <input type="text" class="form-control"
+                                       id="line2" placeholder="Address line 2"/>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                 <label class="col-sm-2 control-label"
+                                    for="district" >District</label>
+                                 <div class="col-sm-10">
+                                    <input type="text" class="form-control"
+                                       id="district" placeholder="District"/>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                 <label class="col-sm-2 control-label"
+                                    for="country" >Country</label>
+                                 <div class="col-sm-10">
+                                    <input type="text" class="form-control"
+                                       id="country" placeholder="Country and Pin code"/>
+                                 </div>
+                              </div>
+                           </form>
                         </div>
-                         <div class="form-group">
-                          <label class="col-sm-2 control-label"
-                                for="inputPassword2" >Re-enter Password</label>
-                          <div class="col-sm-10">
-                              <input type="password" class="form-control"
-                                  id="inputPassword2" placeholder="Re enter Password"/>
-                          </div>
-                        </div>
-                            
-                          </form>   
-                          </div>
-
-                          <div class="tab-pane bg-color" id="tab2">
-
-                          <p class="para-center">A few more steps and we are good to go!!</p>
-                          <p>
-                            <form class="form-horizontal" >
-                        <div class="form-group">
-                          <label  class="col-sm-2 control-label"
-                                  >line 1</label>
-                          <div class="col-sm-10">
-                              <input type="email" class="form-control" 
-                              id="inputline1" placeholder="Address line 1"/>
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label class="col-sm-2 control-label"
-                                for="line2" >line 2</label>
-                          <div class="col-sm-10">
-                              <input type="text" class="form-control"
-                                  id="line2" placeholder="Address line 2"/>
-                          </div>
-                        </div>                
-                         <div class="form-group">
-                          <label class="col-sm-2 control-label"
-                                for="district" >District</label>
-                          <div class="col-sm-10">
-                              <input type="text" class="form-control"
-                                  id="district" placeholder="District"/>
-                          </div>
-                        </div>
-                         <div class="form-group">
-                          <label class="col-sm-2 control-label"
-                                for="country" >Country</label>
-                          <div class="col-sm-10">
-                              <input type="text" class="form-control"
-                                  id="country" placeholder="Country and Pin code"/>
-                          </div>
-                        </div>
-                            
-                          </form>   
-                          </div>
-                          </div>                 
+                     </div>
                   </div>
-                  </div>
-                  <div class="modal-footer">
+               </div>
+               <div class="modal-footer">
                   <button type="button" class="btn btn-info" data-dismiss="modal">Sign up!</button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-                
-              </div>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+               </div>
             </div>
-<!--Modal End-->
-
-
-<!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
+         </div>
+      </div>
+      <!--Modal End-->
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
       <script type="text/javascript" src="lib/css3-animate-it.js"></script>
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-  </body>
+      <!-- Scrolling Nav JavaScript -->
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/scrolling-nav.js"></script>
+      <!--navbar collapse-->
+      <script type="text/javascript" src="js/nav.js"></script>
+   </body>
 </html>
